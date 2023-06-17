@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <ConversorDeMoeda/>
+    <ConversorDeMoeda moeda-a="Dólar" moeda-b="Real"/>
+
 
   </div>
 </template>
 
 <script>
-import ConversorDeMoeda from "./components/ConversorDeMoeda.vue"
+import ConversorDeMoeda from "./components/ConversorDeMoeda.vue";
 
 export default {
   name: 'App',
